@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <ScrollView
+        android:id="@+id/scroll_6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="8dp"
+                android:text="WelCome to Report Card Mod"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="#FF0505"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp" />
+
+            <EditText
+                android:id="@+id/ed_Maths"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:ems="10"
+                android:hint="Enter your Maths Marks "
+                android:inputType="numberDecimal"
+                android:textColorHint="#050505"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_Science"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter your Science Marks "
+                android:inputType="numberDecimal"
+                android:textColorHint="#050505"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_English"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter your English Marks"
+                android:inputType="numberDecimal"
+                android:textColorHint="#090808"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_social"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter your S.S.T Marks"
+                android:inputType="numberDecimal"
+                android:textColorHint="#090808"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_hindi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter your Hindi Marks"
+                android:inputType="numberDecimal"
+                android:textColorHint="#090808"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_Computer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter your Computer Marks"
+                android:inputType="numberDecimal"
+                android:textColorHint="#040303"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="80dp"
+                android:text="Total Marks" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Submit data" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

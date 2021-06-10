@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">School App</string>
+    <string name="welcome_to_student_create_mod">WelCome to Student create Mod</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="welcome_to_11_class">WelCome to 11 Class</string>
+    <string-array name="student_class">Class
+        <item>Class1</item>
+        <item>Class2</item>
+        <item>Class3</item>
+        <item>Class4</item>
+        <item>Class5</item>
+        <item>Class6</item>
+        <item>Class7</item>
+        <item>Class8</item>
+        <item>Class9</item>
+        <item>Class10</item>
+        <item>Class11</item>
+        <item>Class12</item>
+    </string-array>
+    <string-array name="subject_select">
+        <item>Art</item>
+        <item>Commerce</item>
+        <item>Science</item>
+    </string-array>
+
+    <string-array name="Choose_class">Class
+        <item>Class1</item>
+        <item>Class2</item>
+        <item>Class3</item>
+        <item>Class4</item>
+        <item>Class5</item>
+        <item>Class6</item>
+        <item>Class7</item>
+        <item>Class8</item>
+        <item>Class9</item>
+        <item>Class11</item>
+    </string-array>
+</resources>
